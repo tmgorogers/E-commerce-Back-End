@@ -1,6 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
 
-const sequelize = require('../../../../../../E-commerce-Back-End/config/connection.js');
+const sequelize = require('../config/connection.js');
 
 class Category extends Model {}
 //Create fields/columns for Category model
